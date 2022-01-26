@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Decoder/BER
+END
+TlvObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/BER/TlvObject.cs
+END
+BerDecoder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/BER/BerDecoder.cs
+END

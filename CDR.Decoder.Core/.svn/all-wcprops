@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core
+END
+SiemensD900.CDR.Definition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/SiemensD900.CDR.Definition.xml
+END
+Ericsson_GGSN.CDR.Definition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Ericsson_GGSN.CDR.Definition.xml
+END
+Ericsson.CDR.Definition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Ericsson.CDR.Definition.xml
+END
+CDR.Decoder.Core.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/CDR.Decoder.Core.csproj
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/app.config
+END
+Ericsson_SGSN_R7.CDR.Definition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Ericsson_SGSN_R7.CDR.Definition.xml
+END

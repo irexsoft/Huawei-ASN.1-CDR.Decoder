@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 57
+bin
+obj
+*.user
+*.suo
+TestResults
+CDR.Decoder-101112-2227
+
+END

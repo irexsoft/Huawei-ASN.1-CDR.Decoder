@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/CDR.Decoder/Forms
+END
+FormatterSettingsForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/CDR.Decoder/Forms/FormatterSettingsForm.resx
+END
+MainForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/CDR.Decoder/Forms/MainForm.resx
+END
+FormatterSettingsForm.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/CDR.Decoder/Forms/FormatterSettingsForm.designer.cs
+END
+MainForm.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/11/trunk/CDR.Decoder/Forms/MainForm.designer.cs
+END
+FormatterSettingsForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/CDR.Decoder/Forms/FormatterSettingsForm.cs
+END
+MainForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/11/trunk/CDR.Decoder/Forms/MainForm.cs
+END
+AboutForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/CDR.Decoder/Forms/AboutForm.resx
+END
+AboutForm.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/CDR.Decoder/Forms/AboutForm.designer.cs
+END
+AboutForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/CDR.Decoder/Forms/AboutForm.cs
+END

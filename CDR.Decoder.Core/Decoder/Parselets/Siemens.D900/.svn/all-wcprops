@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900
+END
+d900_RecordTypeParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_RecordTypeParselet.cs
+END
+d900_TrailerRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_TrailerRecord.cs
+END
+d900_CircuitParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_CircuitParselet.cs
+END
+d900_CallTransactionTypeParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_CallTransactionTypeParselet.cs
+END
+d900_UssdStringParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_UssdStringParselet.cs
+END
+d900_BcdDateParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_BcdDateParselet.cs
+END
+d900_BcdTimeParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_BcdTimeParselet.cs
+END
+d900_GsmPhoneNumberParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_GsmPhoneNumberParselet.cs
+END
+d900_CellIdParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_CellIdParselet.cs
+END
+d900_PartialRecordTypeParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Decoder/Parselets/Siemens.D900/d900_PartialRecordTypeParselet.cs
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Decoder/Parselets/Ericsson
+END
+esn_TimeParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Ericsson/esn_TimeParselet.cs
+END
+sgsn_TimeParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Decoder/Parselets/Ericsson/sgsn_TimeParselet.cs
+END
+sgsn_iPBinAddress.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Decoder/Parselets/Ericsson/sgsn_iPBinAddress.cs
+END
+esn_AddressString.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Ericsson/esn_AddressString.cs
+END
+esn_DateParselet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Decoder/Parselets/Ericsson/esn_DateParselet.cs
+END

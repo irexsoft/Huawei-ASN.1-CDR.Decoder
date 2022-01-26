@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CDRDefinition Version="IREXSOFT CORPORATION for HUAWEI ASN.1 (C) 2022-2032">
+	<!--
+  Signature (first byte in HEX) to verify first record.
+
+  <Signature>
+    <HexSignature>E1</HexSignature>
+    <HexSignature>...</HexSignature>
+    ...
+  </Signature>
+  -->
+	<Signature>
+		<HexSignature>BF</HexSignature>
+		<HexSignature>B4</HexSignature>
+	</Signature>
+	<Schema Name="Release 1.01" Default="true">
+		<Element Tag="79" Name="PGWRecord" Parselet="">
+			<Element Tag="0" Name="recordType" Parselet="IntegerParselet.Hex"/>
+			<Element Tag="3" Name="servedIMSI" Parselet="TbcdStringParselet"/>
+			<Element Tag="4" Name="pGWAddress" Parselet="">
+				<Element Tag="0" Name="iPBinV4Address" Parselet="sgsn_iPBinAddress"/>
+				<Element Tag="1" Name="iPBinV6Address" Parselet="sgsn_iPBinAddress"/>
+				<Element Tag="2" Name="iPTextV4Address" Parselet=""/>
+				<Element Tag="3" Name="iPTextV6Address" Parselet=""/>
+			</Element>
+			<Element Tag="5" Name="chargingID" Parselet="IntegerParselet"/>
+			<Element Tag="6" Name="servingNodeAddress" Parselet="">
+				<Element Tag="0" Name="iPBinV4Address" Parselet="sgsn_iPBinAddress"/>
+				<Element Tag="1" Name="iPBinV6Address" Parselet="sgsn_iPBinAddress"/>
+				<Element Tag="2" Name="iPTextV4Address" Parselet=""/>
+				<Element Tag="3" Name="iPTextV6Address" Parselet=""/>
+			</Element>
+			<Element Tag="7" Name="accessPointNameNI" Parselet="Ia5StringParselet"/>
+			<Element Tag="8" Name="pdpPDNType" Parselet="IntegerParselet.Hex"/>
+			<Element Tag="9" Name="servedPDPPDNAddress" Parselet="">
+				<Element Tag="0" Name="iPAddress" Parselet="">
+					<Element Tag="0" Name="iPBinV4Address" Parselet="sgsn_iPBinAddress"/>
+					<Element Tag="1" Name="iPBinV6Address" Parselet="sgsn_iPBinAddress"/>
+					<Element Tag="2" Name="iPTextV4Address" Parselet=""/>
+					<Element Tag="3" Name="iPTextV6Address" Parselet=""/>
+				</Element>
+			</Element>
+			<Element Tag="11" Name="dynamicAddressFlag" Parselet="IntegerParselet.Hex"/>
+			<Element Tag="12" Name="listOfTrafficVolumes" Parselet="">
+				<Element Tag="16" Name="ChangeOfCharCondition" Parselet="">
+					<Element Tag="3" Name="VolUpLk" Parselet="IntegerParselet"/>
+					<Element Tag="4" Name="VolDnLk" Parselet="IntegerParselet"/>
+					<Element Tag="5" Name="changeCondition" Parselet="IntegerParselet.Hex"/>
+					<Element Tag="6" Name="ChangeTime" Parselet="sgsn_TimeParselet"/>
+					<Element Tag="9" Name="ePCQoSInformation" Parselet="">
+						<Element Tag="1" Name="qCI" Parselet="IntegerParselet"/>
+						<Element Tag="2" Name="maxRequestedBandwithUL" Parselet="IntegerParselet"/>
+						<Element Tag="3" Name="maxRequestedBandwithDL" Parselet="IntegerParselet"/>
+						<Element Tag="4" Name="guaranteedBitrateUL" Parselet="IntegerParselet"/>
+						<Element Tag="5" Name="guaranteedBitrateDL" Parselet="IntegerParselet"/>
+						<Element Tag="6" Name="aRP" Parselet="IntegerParselet"/>
+					</Element>
+				</Element>
+			</Element>
+		</Element>
+
+
+		<Element Tag="20" Name="SGSNPDPRecord" Parselet="">
+
+		</Element>
+
+	</Schema>
+</CDRDefinition>

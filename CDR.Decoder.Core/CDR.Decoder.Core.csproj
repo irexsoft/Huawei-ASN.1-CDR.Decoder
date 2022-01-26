@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82AEF3A4-8EEF-457C-8AD5-2E8CC99737DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CDR</RootNamespace>
+    <AssemblyName>CDR.Decoder.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Decoder\AssemblyVersionInfo.cs" />
+    <Compile Include="Decoder\BasicLogger.cs" />
+    <Compile Include="Decoder\CdrDecoder.cs" />
+    <Compile Include="Decoder\CdrElement.cs" />
+    <Compile Include="Decoder\CdrTlvParser.cs" />
+    <Compile Include="Decoder\BER\BerDecoder.cs" />
+    <Compile Include="Decoder\BER\TlvObject.cs" />
+    <Compile Include="Decoder\CheckElementsDefinition.cs" />
+    <Compile Include="Decoder\Dump.cs" />
+    <Compile Include="Decoder\EnumDescConverter.cs" />
+    <Compile Include="Decoder\Job.cs" />
+    <Compile Include="Decoder\JobDispatcher.cs" />
+    <Compile Include="Decoder\JobStatus.cs" />
+    <Compile Include="Decoder\Parselets\Ericsson\sgsn_iPBinAddress.cs" />
+    <Compile Include="Decoder\Parselets\Ericsson\sgsn_TimeParselet.cs" />
+    <Compile Include="Decoder\Parselets\Ericsson\esn_AddressString.cs" />
+    <Compile Include="Decoder\Parselets\Ericsson\esn_DateParselet.cs" />
+    <Compile Include="Decoder\Parselets\Ericsson\esn_TimeParselet.cs" />
+    <Compile Include="Decoder\Parselets\GenericParselet.cs" />
+    <Compile Include="Decoder\Parselets\ParseletProvider.cs" />
+    <Compile Include="Decoder\Parselets\IParselet.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_BcdDateParselet.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_BcdTimeParselet.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_CallTransactionTypeParselet.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_CellIdParselet.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_CircuitParselet.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_GsmPhoneNumberParselet.cs" />
+    <Compile Include="Decoder\Parselets\Ia5StringParselet.cs" />
+    <Compile Include="Decoder\Parselets\IntegerParselet.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_PartialRecordTypeParselet.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_RecordTypeParselet.cs" />
+    <Compile Include="Decoder\Parselets\TbcdStringParselet.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_TrailerRecord.cs" />
+    <Compile Include="Decoder\Parselets\Siemens.D900\d900_UssdStringParselet.cs" />
+    <Compile Include="Decoder\RecordFormatter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schema\CdrDefinitionProvider.cs" />
+    <Compile Include="Schema\ElementPathComparer.cs" />
+    <Compile Include="Schema\ICdrElementDefinition.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HUAWEI.CDR.Definition.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Schema\Ericsson_GGSN.CDR.Definition.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

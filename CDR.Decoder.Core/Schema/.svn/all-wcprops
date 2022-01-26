@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Schema
+END
+CdrDefinitionProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/CDR.Decoder.Core/Schema/CdrDefinitionProvider.cs
+END
+ElementPathComparer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Schema/ElementPathComparer.cs
+END
+ICdrElementDefinition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/CDR.Decoder.Core/Schema/ICdrElementDefinition.cs
+END
