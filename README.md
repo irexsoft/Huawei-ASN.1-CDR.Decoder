@@ -1,5 +1,5 @@
-# Huawei-ASN.1-CDR.Decoder
-Huawei ASN.1 PGW SGSN SGW CDR decoder, encoder,convertor , editor
+# IrexSoft Corp. Huawei-ASN.1-CDR.Decoder (C) 2022-2032
+Huawei ASN.1 PGW SGSN SGW CDR decoder,encoder,convertor,editor project.
 Abstract Syntax Notation One (ASN.1) is a standard interface description language for defining data structures that can be serialized and deserialized in a cross-platform way. It is broadly used in telecommunications and computer networking, and especially in cryptography.[1]
 
 Protocol developers define data structures in ASN.1 modules, which are generally a section of a broader standards document written in the ASN.1 language. The advantage is that the ASN.1 description of the data encoding is independent of a particular computer or programming language. Because ASN.1 is both human-readable and machine-readable, an ASN.1 compiler can compile modules into libraries of code, codecs, that decode or encode the data structures. Some ASN.1 compilers can produce code to encode or decode several encodings, e.g. packed, BER or XML.
